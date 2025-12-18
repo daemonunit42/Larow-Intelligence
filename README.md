@@ -1,158 +1,175 @@
-Larow Intelligence Chat Interface
-<div align="center"> <h3>A clean, minimalist AI chat interface with full-screen video background</h3>
-https://img.shields.io/badge/interface-chat-blue
-https://img.shields.io/badge/backend-flask-green
-https://img.shields.io/badge/ai-openrouter-orange
-https://img.shields.io/badge/design-responsive-purple
+<h1 align="center">Larow Intelligence – Chat Interface</h1>
 
-</div>
-✨ Features
-🎬 Full-screen video background with overlay
+<p align="center">
+  A clean, minimalist AI chat interface with a full-screen video background
+</p>
 
-🎯 Minimalist UI design inspired by modern chat applications
+<p align="center">
+  <img src="https://img.shields.io/badge/interface-chat-blue" />
+  <img src="https://img.shields.io/badge/backend-flask-green" />
+  <img src="https://img.shields.io/badge/ai-openrouter-orange" />
+  <img src="https://img.shields.io/badge/design-responsive-purple" />
+</p>
 
-✍️ Real-time typing effects for AI responses
+<hr>
 
-📱 Responsive design that works on all devices
+<h2>✨ Features</h2>
 
-⏎ Enter-to-send functionality with visual feedback
+<ul>
+  <li>🎬 Full-screen video background with overlay</li>
+  <li>🎯 Minimalist UI inspired by modern chat applications</li>
+  <li>✍️ Real-time typing animation for AI responses</li>
+  <li>📱 Fully responsive on mobile, tablet, and desktop</li>
+  <li>⏎ Enter-to-send messaging with visual feedback</li>
+  <li>🪟 Glass-morphism design with subtle blur effects</li>
+  <li>🟢 Online status indicator</li>
+  <li>🚀 Fast, lightweight, and smooth performance</li>
+</ul>
 
-🪟 Glass-morphism aesthetic with subtle blur effects
+<hr>
 
-🟢 Online status indicator
+<h2>📸 Preview</h2>
 
-🚀 Fast and lightweight
+<p align="center">
+  <img 
+    src="https://via.placeholder.com/800x450/1e1e2e/ffffff?text=Larow+Intelligence+Chat" 
+    alt="Larow Intelligence Chat Preview" 
+    width="600"
+  />
+</p>
 
-📸 Preview
-<div align="center"> <img src="https://via.placeholder.com/800x450/1e1e2e/ffffff?text=Larow+Intelligence+Chat" alt="Chat Preview" width="600"/> </div>
-🚀 Quick Start
-Prerequisites
-Python 3.8+
+<hr>
 
-Flask
+<h2>🚀 Quick Start</h2>
 
-OpenRouter API key
+<h3>Prerequisites</h3>
+<ul>
+  <li>Python 3.8+</li>
+  <li>Flask</li>
+  <li>OpenRouter API Key</li>
+</ul>
 
-Installation
-Clone and navigate
+<h3>Installation</h3>
 
-bash
-git clone https://github.com/yourusername/larow-intelligence.git
-cd larow-intelligence
-Set up virtual environment
+<pre><code>git clone https://github.com/daemonunit42/Larow-Intelligence.git
+cd Larow-Intelligence
+</code></pre>
 
-bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
+<pre><code>python -m venv venv
+venv\Scripts\activate
+</code></pre>
 
-bash
-pip install -r requirements.txt
-Configure environment
+<pre><code>pip install -r requirements.txt
+</code></pre>
 
-bash
-cp .env.example .env
-# Edit .env and add your OpenRouter API key
-Run the application
+<pre><code>OPENROUTER_API_KEY=your_api_key_here
+</code></pre>
 
-bash
-python app.py
-Open in browser
+<pre><code>python app.py
+</code></pre>
 
-text
-http://localhost:5000
-📁 Project Structure
-text
-larow-intelligence/
+<p>
+  Open your browser and visit:
+  <br>
+  <strong>http://localhost:5000</strong>
+</p>
+
+<hr>
+
+<h2>📁 Project Structure</h2>
+
+<pre><code>larow-intelligence/
 ├── static/
-│   ├── style.css      # Main stylesheet
-│   └── script.js      # Frontend logic
+│   ├── style.css
+│   └── script.js
 ├── templates/
-│   └── index.html     # Main HTML template
-├── .env.example       # Environment template
-├── requirements.txt   # Python dependencies
-├── app.py            # Flask backend
-└── background.mp4    # Background video
-🎨 Customization
-Changing Colors
-Edit style.css to modify the color scheme:
+│   └── index.html
+├── .env.example
+├── requirements.txt
+├── app.py
+└── background.mp4
+</code></pre>
 
-css
-/* Primary colors */
-.message.user .message-bubble {
-    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+<hr>
+
+<h2>🎨 Customization</h2>
+
+<h3>Change Colors</h3>
+
+<pre><code>.message.user .message-bubble {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
 }
-Changing Background Video
-Replace background.mp4 with your own video file (MP4 format recommended).
+</code></pre>
 
-Adjusting Typing Speed
-Modify the typing speed in script.js:
+<h3>Change Background Video</h3>
+<p>
+Replace <code>background.mp4</code> with your own MP4 video.
+</p>
 
-javascript
-const speed = 20 + Math.random() * 30; // Adjust these values
-🔧 API Configuration
-The application uses OpenRouter AI. To configure:
+<h3>Typing Speed</h3>
 
-Get an API key from OpenRouter
+<pre><code>const speed = 20 + Math.random() * 30;
+</code></pre>
 
-Add it to your .env file:
+<hr>
 
-env
-OPENROUTER_API_KEY=your_api_key_here
-📱 Responsive Design
-The interface automatically adjusts for:
+<h2>🔧 API Configuration</h2>
 
-Mobile devices (phones)
+<p>
+This project uses the OpenRouter API.
+</p>
 
-Tablets
+<pre><code>OPENROUTER_API_KEY=your_api_key_here
+</code></pre>
 
-Desktop computers
+<hr>
 
-Various screen sizes
+<h2>🛠️ Built With</h2>
 
-🛠️ Built With
-Frontend: HTML5, CSS3, JavaScript (ES6+)
+<ul>
+  <li>Frontend: HTML5, CSS3, JavaScript</li>
+  <li>Backend: Flask (Python)</li>
+  <li>AI: OpenRouter API</li>
+  <li>Styling: Custom CSS (Glass-morphism)</li>
+</ul>
 
-Backend: Flask (Python)
+<hr>
 
-AI Integration: OpenRouter API
+<h2>🤝 Contributing</h2>
 
-Styling: Custom CSS with glass-morphism effects
+<ol>
+  <li>Fork the repository</li>
+  <li>Create a feature branch</li>
+  <li>Commit your changes</li>
+  <li>Push to your branch</li>
+  <li>Open a Pull Request</li>
+</ol>
 
-Icons: SVG inline icons
+<hr>
 
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+<h2>📄 License</h2>
 
-Fork the project
+<p>
+MIT License — free to use and modify.
+</p>
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+<hr>
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+<h2>🙏 Acknowledgements</h2>
 
-Push to the branch (git push origin feature/AmazingFeature)
+<ul>
+  <li>OpenRouter — AI API</li>
+  <li>Flask — Backend framework</li>
+  <li>Inter Font — Typography</li>
+</ul>
 
-Open a Pull Request
+<hr>
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+<p align="center">
+  Made with ❤️ for clean AI interfaces
+</p>
 
-🙏 Acknowledgements
-OpenRouter for AI API access
-
-Flask for the web framework
-
-Inter Font for typography
-
-📞 Support
-For support, please:
-
-Check the Issues page
-
-Create a new issue if your problem isn't already listed
-
-<div align="center"> <p>Made with ❤️ for clean AI interfaces</p>
-https://img.shields.io/github/stars/yourusername/larow-intelligence?style=social
-https://img.shields.io/github/forks/yourusername/larow-intelligence?style=social
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/daemonunit42/Larow-Intelligence?style=social" />
+  <img src="https://img.shields.io/github/forks/daemonunit42/Larow-Intelligence?style=social" />
+</p>
