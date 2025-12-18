@@ -20,23 +20,10 @@
   <li>🎯 Minimalist UI inspired by modern chat applications</li>
   <li>✍️ Real-time typing animation for AI responses</li>
   <li>📱 Fully responsive on mobile, tablet, and desktop</li>
-  <li>⏎ Enter-to-send messaging with visual feedback</li>
   <li>🪟 Glass-morphism design with subtle blur effects</li>
   <li>🟢 Online status indicator</li>
   <li>🚀 Fast, lightweight, and smooth performance</li>
 </ul>
-
-<hr>
-
-<h2>📸 Preview</h2>
-
-<p align="center">
-  <img 
-    src="https://via.placeholder.com/800x450/1e1e2e/ffffff?text=Larow+Intelligence+Chat" 
-    alt="Larow Intelligence Chat Preview" 
-    width="600"
-  />
-</p>
 
 <hr>
 
@@ -166,7 +153,7 @@ MIT License — free to use and modify.
 <hr>
 
 <p align="center">
-  Made with ❤️ for clean AI interfaces
+  { Powering Young Brain's }
 </p>
 
 <p align="center">
